@@ -2,5 +2,9 @@
   "dependencies": {
     "axios": "^0.22.0",
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "serve": "cd client && npm run serve"
   }
 }
